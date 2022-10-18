@@ -1,3 +1,40 @@
 /* VENDOR */
 
 @import url(../vendor/normalize.css);
+
+/* FONT-FACE */
+
+@import url(../blocks/font-face/font-face.css);
+
+/* TEXT */
+
+@import url(../blocks/text/text.css);
+@import url(../blocks/text/_size/text_size_xxs.css);
+@import url(../blocks/text/_size/text_size_xs.css);
+@import url(../blocks/text/_size/text_size_s.css);
+@import url(../blocks/text/_size/text_size_l.css);
+@import url(../blocks/text/_size/text_size_xl.css);
+
+/* LINK-HOVER */
+
+@import url(../blocks/link-hover/link-hover.css);
+
+/* PAGE */
+
+@import url(../blocks/page/page.css);
+
+/* HEADER */
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo-link/header__logo-link.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-block/header__lang-block.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+
+/* LEAD */
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__img/lead__img.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
