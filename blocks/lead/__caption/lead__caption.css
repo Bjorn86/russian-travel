@@ -3,12 +3,11 @@
   font-weight: 400;
   font-size: 10px;
   line-height: 1.4;
-  color: #fff;
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 970px) {
   .lead__caption {
     margin-left: 24px;
   }
