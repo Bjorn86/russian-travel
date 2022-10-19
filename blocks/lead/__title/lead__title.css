@@ -7,3 +7,14 @@
   text-align: center;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    font-size: 12.5vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  .lead__title {
+    line-height: 1.1;
+  }
+}

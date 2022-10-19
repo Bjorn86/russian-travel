@@ -6,15 +6,6 @@
 
 @import url(../blocks/font-face/font-face.css);
 
-/* TEXT */
-
-@import url(../blocks/text/text.css);
-@import url(../blocks/text/_size/text_size_xxs.css);
-@import url(../blocks/text/_size/text_size_xs.css);
-@import url(../blocks/text/_size/text_size_s.css);
-@import url(../blocks/text/_size/text_size_l.css);
-@import url(../blocks/text/_size/text_size_xl.css);
-
 /* LINK-HOVER */
 
 @import url(../blocks/link-hover/link-hover.css);
