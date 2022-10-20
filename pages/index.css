@@ -39,6 +39,12 @@
 @import url(../blocks/intro/__fact/intro__fact.css);
 @import url(../blocks/intro/__span-accent/intro__span-accent.css);
 
+/* PHOTO-GRID */
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__wrapper/photo-grid__wrapper.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
 /* LINK-HOVER */
 
 @import url(../blocks/link-hover/link-hover.css);
