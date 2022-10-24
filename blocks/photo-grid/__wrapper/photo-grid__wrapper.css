@@ -4,19 +4,19 @@
   gap: 16px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1152px) {
   .photo-grid__wrapper {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 14px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 896px) {
   .photo-grid__wrapper {
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     gap: 16px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 544px) {
   .photo-grid__wrapper {
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     gap: 12px;

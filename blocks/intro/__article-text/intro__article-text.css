@@ -1,6 +1,14 @@
 .intro__article-text {
+  max-width: 690px;
   margin: 40px 0 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
+  color: #fff;
+}
+
+@media screen and (max-width: 896px) {
+  .intro__article-text {
+    max-width: 720px;
+  }
 }

@@ -1,22 +1,18 @@
 .photo-grid {
-  padding: 92px 16px 0;
-  max-width: 1184px;
-  margin: 0 auto;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0 48px;
+  max-width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 896px) {
   .photo-grid {
-    max-width: 928px;
+    padding: 0 24px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 544px) {
   .photo-grid {
-    padding-top: 88px;
-    max-width: 720px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .photo-grid {
-    padding-top: 64px;
+    padding: 0 16px;
   }
 }

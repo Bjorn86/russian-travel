@@ -1,9 +1,15 @@
 .page {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  font-family: "Inter", "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
   background-color: #2A2C2F;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 0 24px;
+}
+
+@media screen and (max-width: 544px) {
+  .page {
+    padding-top: 16px;
+  }
 }

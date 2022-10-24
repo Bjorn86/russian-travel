@@ -3,11 +3,13 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 1.07;
+  color: #fff;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 544px) {
   .intro__article-title {
-    font-size: 10vw;
+    max-width: 288px;
+    font-size: 32px;
     line-height: 1.09;
   }
 }

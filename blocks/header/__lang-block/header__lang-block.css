@@ -4,7 +4,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 544px) {
   .header__lang-block {
     width: 62px;
   }

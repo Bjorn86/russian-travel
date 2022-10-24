@@ -5,15 +5,19 @@
   font-size: 96px;
   line-height: 1.04;
   text-align: center;
+  color: #fff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 725px) {
   .lead__title {
-    font-size: 12.5vw;
+    max-width: 500px;
+    font-size: 60px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 544px) {
   .lead__title {
+    max-width: 288px;
+    font-size: 40px;
     line-height: 1.1;
   }
 }

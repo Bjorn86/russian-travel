@@ -1,0 +1,17 @@
+.place__text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 26px;
+}
+
+@media screen and (max-width: 896px) {
+  .place__text-block {
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .place__text-block {
+    padding: 0 16px;
+  }
+}

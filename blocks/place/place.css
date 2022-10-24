@@ -1,0 +1,27 @@
+.place {
+  font-family: "Inter", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+  gap: 48px 40px;
+}
+
+@media screen and (max-width: 1152px) {
+  .place {
+    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
+    column-gap: 32px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .place {
+    grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
+    column-gap: 28px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .place {
+    grid-template-columns: 1fr;
+    gap: 32px 0;
+  }
+}

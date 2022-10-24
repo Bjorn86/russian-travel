@@ -22,6 +22,19 @@
 
 Удачи!
 
+1152
+980
+896
+725
+544
+
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+font-family: 'Inter', 'Arial', sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+
 10 - xxs
 12 - xs
 16 - s

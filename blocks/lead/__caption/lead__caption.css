@@ -5,15 +5,16 @@
   line-height: 1.4;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  color: #fff;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 980px) {
   .lead__caption {
-    margin-left: 24px;
+    padding-left: 24px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 544px) {
   .lead__caption {
-    margin-left: 16px;
+    padding-left: 16px;
   }
 }

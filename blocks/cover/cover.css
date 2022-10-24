@@ -1,12 +1,6 @@
-.lead {
+.cover {
   font-family: "Inter", "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 984px;
-}
-
-@media screen and (max-width: 1152px) {
-  .lead {
-    max-width: 928px;
-  }
+  max-width: 1184px;
 }

@@ -1,15 +1,28 @@
 .intro {
-  max-width: 690px;
-  padding-top: 92px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: "Inter", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 984px;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1152px) {
   .intro {
-    padding: 88px 24px 0;
+    max-width: 928px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 980px) {
   .intro {
-    padding: 64px 16px 0;
+    padding: 0px 24px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .intro {
+    padding: 0px 16px;
   }
 }

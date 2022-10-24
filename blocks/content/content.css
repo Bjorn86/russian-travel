@@ -1,3 +1,16 @@
 .content {
-  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 92px;
+}
+
+@media screen and (max-width: 896px) {
+  .content {
+    gap: 88px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .content {
+    gap: 64px;
+  }
 }

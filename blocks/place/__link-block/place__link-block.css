@@ -1,0 +1,13 @@
+.place__link-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  gap: 12px;
+}
+
+@media screen and (max-width: 725px) {
+  .place__link-block {
+    padding: 0 16px;
+  }
+}
