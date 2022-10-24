@@ -62,8 +62,7 @@
 
 /* BUTTON */
 @import url('../blocks/button/button.css');
-@import url('../blocks/button/__header/button__header.css');
-@import url('../blocks/button/__header/_type/button__header_type_active.css');
+@import url('../blocks/button/_type/button_type_active.css');
 
 /* MENU */
 @import url('../blocks/menu/menu.css');
@@ -71,5 +70,5 @@
 @import url('../blocks/menu/__item/menu__item.css');
 @import url('../blocks/menu/__link/menu__link.css');
 
-/* LINK-HOVER */
+/* HOVER */
 @import url('../blocks/hover/hover.css');
