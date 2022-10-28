@@ -1,0 +1,15 @@
+.lead__img-wrapper {
+  width: 100%;
+  margin: 64px auto 0;
+}
+
+@media screen and (max-width: 1152px) {
+  .lead__img-wrapper {
+    margin-top: 56px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .lead__img-wrapper {
+    margin-top: 40px;
+  }
+}

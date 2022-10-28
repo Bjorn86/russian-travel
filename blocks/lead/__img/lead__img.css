@@ -1,17 +1,5 @@
 .lead__img {
   display: block;
   width: 100%;
-  margin: 64px auto 0;
   object-fit: cover;
-}
-
-@media screen and (max-width: 1152px) {
-  .lead__img {
-    margin-top: 56px;
-  }
-}
-@media screen and (max-width: 544px) {
-  .lead__img {
-    margin-top: 40px;
-  }
 }

@@ -1,11 +1,7 @@
 .header__lang-block {
-  width: 78px;
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 544px) {
-  .header__lang-block {
-    width: 62px;
-  }
+  gap: 18px;
+  list-style: none;
 }

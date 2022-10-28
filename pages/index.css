@@ -13,11 +13,15 @@
 /* HEADER */
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__lang-block/header__lang-block.css');
+@import url('../blocks/header/__lang-item/header__lang-item.css');
+@import url('../blocks/header/__lang-link/header__lang-link.css');
+@import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
 
 /* LEAD */
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');
+@import url('../blocks/lead/__img-wrapper/lead__img-wrapper.css');
 @import url('../blocks/lead/__img/lead__img.css');
 @import url('../blocks/lead/__caption/lead__caption.css');
 
@@ -59,10 +63,6 @@
 
 /* LOGO */
 @import url('../blocks/logo/logo.css');
-
-/* BUTTON */
-@import url('../blocks/button/button.css');
-@import url('../blocks/button/_type/button_type_active.css');
 
 /* MENU */
 @import url('../blocks/menu/menu.css');

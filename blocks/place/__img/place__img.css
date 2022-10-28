@@ -2,11 +2,3 @@
   width: 100%;
   object-fit: cover;
 }
-
-/* @media screen and (max-width: 1152px) {
-  .place {
-    &__img {
-      width: 440px;
-    }
-  }
-} */
