@@ -1,19 +1,22 @@
 .places {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   padding: 0 24px;
   display: flex;
   flex-direction: column;
   gap: 80px;
-  max-width: 984px;
+  max-width: 1032px;
 }
 
 @media screen and (max-width: 1152px) {
   .places {
-    max-width: 928px;
+    max-width: 976px;
   }
 }
 @media screen and (max-width: 896px) {
   .places {
-    max-width: 720px;
+    max-width: 768px;
     gap: 73px;
   }
 }
